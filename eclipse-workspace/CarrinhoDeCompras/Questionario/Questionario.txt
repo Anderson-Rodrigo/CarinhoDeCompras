@@ -1,0 +1,59 @@
+1)-B
+
+2)-A
+
+3)-
+Private: acesso somente dentro da mesma classe;
+Public: acesso por todas as classes do sistema;
+Protected: acesso somente na classe e suas filhas;
+
+4)-A
+
+5)-
+V
+F
+F
+V
+V
+
+6)-
+Implements: é quando uma interface é implementada(se você implementar uma interface, terá que implementar os métodos nela definidos)
+Extends: voce extende as funcionalidades de uma classe(você herda os métodos dela e pode fazer e utiliza esses metodos em objetos.).
+
+7)-
+As classes concretas que irão "assinar" a interface
+serão obrigadas a implementar todos os métodos da
+interface;
+
+
+public interface Loja{
+	String Compra();
+}
+
+public class Usuario
+	implements Loja{
+
+	private String nome;
+	
+	public Nome(String nome){
+		this.nome = nome;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+}
+
+public class Compras
+	implements Loja{
+
+	private String produto;
+	
+	public produt(String produt){
+		this.produto = produto;
+	}
+
+	public String getproduto() {
+		return produt;
+	}
+}
