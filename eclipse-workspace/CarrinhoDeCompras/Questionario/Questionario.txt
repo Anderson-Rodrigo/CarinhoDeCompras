@@ -1,7 +1,7 @@
 1)-B
 
 2)-A
-
+ss
 3)-
 Private: acesso somente dentro da mesma classe;
 Public: acesso por todas as classes do sistema;
